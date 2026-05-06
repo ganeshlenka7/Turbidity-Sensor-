@@ -64,7 +64,7 @@ void loop()
   lcd.print("%");
 
   // CLEAR WATER
-  if (turbidity < 20)
+  if (turbidity < 60)
   {
     digitalWrite(clearLED, HIGH);
     digitalWrite(cloudyLED, LOW);
@@ -75,7 +75,7 @@ void loop()
   }
 
   // CLOUDY WATER
-  else if (turbidity >= 20 && turbidity < 50)
+  else if (turbidity >= 60 && turbidity < 70)
   {
     digitalWrite(clearLED, LOW);
     digitalWrite(cloudyLED, HIGH);
