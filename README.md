@@ -34,8 +34,8 @@ Pin Connections
 | Green LED | 2 |
 | Yellow LED | 3 |
 | Red LED | 4 |
-| LCD SDA | A4 |
-| LCD SCL | A5 |
+| LCD SDA | SDA |
+| LCD SCL | SCL |
 | Sensor VCC | 5V |
 | Sensor GND | GND |
 
